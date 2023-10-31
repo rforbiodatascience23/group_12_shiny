@@ -4,6 +4,9 @@
 # CD12
 
 <!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 <!-- badges: end -->
 
 The goal of CD12 is to …
@@ -20,7 +23,7 @@ devtools::install_github("rforbiodatascience23/group_12_shiny")
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
+This is a basic example which shows you how to solve a common problem
 
 ``` r
 library(CD12)

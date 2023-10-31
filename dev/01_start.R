@@ -33,9 +33,9 @@ golem::fill_desc(
 golem::set_golem_options()
 
 ## Install the required dev dependencies ----
-golem::install_dev_deps()
+#golem::install_dev_deps()
 
-## Create Common Files ----
+n2## Create Common Files ----
 ## See ?usethis for more information
 usethis::use_mit_license("Golem User") # You can set another license here
 usethis::use_readme_rmd(open = FALSE)

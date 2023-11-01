@@ -10,10 +10,19 @@ app_ui <- function(request) {
     golem_add_external_resources(),
     # Your application UI logic
     fluidPage(
-      h1("CD12")
+      h1("CD12"),
+      tabsetPanel(
+        tabPanel(title = "DNA Transcription",
+                 mod_DNA_transcription_ui("DNA_transcription_1")),
+        tabPanel(title = "Plot",
+                 mod_amino_acid_plot_ui("amino_acid_plot_1"))
+      )
     )
   )
-}
+
+
+
+  }
 
 #' Add external Resources to the Application
 #'

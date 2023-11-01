@@ -1,33 +1,20 @@
 Package: CD12
 Title: PKG_TITLE
 Version: 0.0.0.9000
-Authors@R: 
-    c(person(given = "Mikolaj",
-           family = "Weber",
-           role = c("aut", "cre"),
-           email = "s222940@student.dtu.dk"),
-    person(given = "Jade",
-           family = "Norton",
-           role = "aut",
-           email = "s222785@student.dtu.dk"),
-    person(given = "Arlinda",
-           family = "Driza",
-           role = "aut",
-           email = "s223712@student.dtu.dk"),
-    person(given = "Eleni",
-           family = "Kiachaki",
-           role = "aut",
-           email = "s222777@student.dtu.dk"),
-    person(given = "Camilla",
-           family = "Alminde",
-           role = "aut",
-           email = "s234118@student.dtu.dk"))
+Authors@R: c(
+    person("Mikolaj", "Weber", , "s222940@student.dtu.dk", role = c("aut", "cre")),
+    person("Jade", "Norton", , "s222785@student.dtu.dk", role = "aut"),
+    person("Arlinda", "Driza", , "s223712@student.dtu.dk", role = "aut"),
+    person("Eleni", "Kiachaki", , "s222777@student.dtu.dk", role = "aut"),
+    person("Camilla", "Alminde", , "s234118@student.dtu.dk", role = "aut")
+  )
 Description: What the package does (one paragraph).
 License: What license is it under?
 Imports: 
     config (>= 0.3.1),
+    ggplot2,
     golem (>= 0.4.1),
     shiny (>= 1.7.5)
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
